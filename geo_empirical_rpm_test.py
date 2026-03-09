@@ -6,10 +6,6 @@ import threading
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-# os.environ['AWS_ACCESS_KEY_ID'] = 'YOUR_KEY'
-# os.environ['AWS_SECRET_ACCESS_KEY'] = 'YOUR_SECRET'
-# os.environ['AWS_SESSION_TOKEN'] = 'YOUR_TOKEN'
-
 MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
 OUTPUT_FILE = "empirical_rpm_test_output.txt"
 
